@@ -4,7 +4,10 @@ module.exports = {
   theme : {
     extend : {
       backgroundImage: { 
-        'bgt': "url('/src/assets/images/cami_pic.png')"
+        'bgt': "url('/src/assets/images/cami_pic.png')",
+        'bgt1': "url('/src/assets/images/cami_pic1.png')",
+        'bgt2': "url('/src/assets/images/cami_pic2.png')",
+        'bgt3': "url('/src/assets/images/cami_pic3.png')"
        },
       fontFamily : {
         custom : ["Ardela", "sans-serif"]
