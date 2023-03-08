@@ -74,6 +74,12 @@
     html, body{
         font-family: 'Ardela', sans-serif;
     }
-
-
+}
+html, body
+{
+    @apply h-full;
+}
+.App
+{
+    @apply h-full;
 }
