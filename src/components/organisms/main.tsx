@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from '../molecules/nav';
-import Section from './section';
+import SectionOne from './section_one';
 
 class Main extends React.Component {
     render()
@@ -8,7 +8,7 @@ class Main extends React.Component {
         return (
             <>
             <NavBar />
-            <Section />
+            <SectionOne />
             </>
         )
     }
