@@ -7,7 +7,7 @@ class SectionOne extends React.Component {
     render()
     {
         return(
-            <div className="bg-white flex flex-col h-screen border border-y-red-500">
+            <div className="bg-white flex flex-col h-screen">
                <div className=' h-1/4 w-full bg-cami-background-dark'></div>
                <div className=' h-4 w-full flex flex-row justify-around   pl-28 pr-28 absolute mt-6'>
                     
@@ -29,7 +29,7 @@ class SectionOne extends React.Component {
                     </div>
                     
                </div>
-               <div className='h-1/4 w-full pt-36'>
+               <div className='h-1/4 w-full pt-32'>
                 <h1 className='text-center text-9xl '>
                     Depuis 2013
                 </h1>
